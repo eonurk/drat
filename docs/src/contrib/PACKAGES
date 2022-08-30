@@ -6,3 +6,29 @@ Suggests: git2r, knitr, rmarkdown
 License: GPL (>= 2)
 MD5sum: 2e7107c8bc567c3e7d1aedbd7aaeb396
 NeedsCompilation: no
+
+Package: MuSiC
+Version: 0.2.0
+Depends: R (>= 3.3.2), nnls (>= 1.4), ggplot2 (>= 2.2.1)
+Imports: plyr, Biobase, MCMCpack
+Suggests: rmarkdown
+License: GPL (>= 3)
+MD5sum: ac42499b24ba5b7f01a154da2c8e1ca7
+NeedsCompilation: no
+
+Package: seAMLessData
+Version: 0.1.0
+Depends: R (>= 3.5.0)
+License: GPL-3
+MD5sum: 65f844cd3c37e24cae87c40b1984360f
+NeedsCompilation: no
+
+Package: xbioc
+Version: 0.1.19
+Depends: R (>= 3.1), methods, Biobase, AnnotationDbi
+Imports: stats, pkgmaker (>= 0.26.6), plyr, stringr, reshape2, digest, BiocManager, assertthat ,
+           checkmate , utils
+Suggests: repotools, hgu133plus2.db, org.Hs.eg.db, reactome.db
+License: GPL (>= 3)
+MD5sum: 65b5a2efb1962aee02d98139e828a836
+NeedsCompilation: no
